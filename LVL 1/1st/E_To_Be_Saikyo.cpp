@@ -2,7 +2,7 @@
 int main() {
     int n, ans, max = 0;
     scanf( "%d", &n );
-    int scores[ n ];
+    int scores[ n + 1 ];
     for (int i = 1;i <= n;i++) {
         scanf( "%d", &scores[ i ] );
     }
